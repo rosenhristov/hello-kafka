@@ -21,8 +21,6 @@ public class SenderConfiguration {
         return new DefaultKafkaProducerFactory<>(producerConfigurations());
     }
 
-
-
     @Bean
     public Map<String, Object> producerConfigurations() {
         Map<String, Object> configurations = new HashMap<>();

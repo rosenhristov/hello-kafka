@@ -20,6 +20,5 @@ public class MessageComponent {
 
     public List<String> getMessages() {
         return messages;
-
     }
 }
